@@ -1,0 +1,15 @@
+{
+    "name": "mineducyt/biblioteca_virtual",
+    "autoload": {
+        "psr-4": {
+            "Mineducyt\\Biblioteca_Virtual\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "NohemyJuarez",
+            "email": "juareznohemy019@gmail.com"
+        }
+    ],
+    "require": {}
+}

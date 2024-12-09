@@ -1,0 +1,116 @@
+/* General */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #4b4b4b;
+    line-height: 1.6;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px 30px;
+}
+
+/* Títulos */
+h1, h2 {
+    text-align: center;
+    color: #333333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.book-list li, .result-list li {
+    padding: 15px;
+    border: 1px solid #e1e5eb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    background: #f9fbfd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book-list li:hover, .result-list li:hover {
+    background: #eaf3fc;
+    border-color: #b0d4f1;
+}
+
+.book-list li p, .result-list li p {
+    margin: 0;
+    color: #555555;
+    font-size: 1rem;
+}
+
+/* Botón */
+button {
+    background: #007bff;
+    border: none;
+    color: #ffffff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Mensajes */
+.success {
+    color: #28a745;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.error {
+    color: #dc3545;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #7d8899;
+}
+
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
